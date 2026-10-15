@@ -1,0 +1,23 @@
+{
+  "dataset_samples": 14,
+  "train_samples": 10,
+  "test_samples": 4,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "roc_auc": 1.0,
+  "confusion_matrix": {
+    "true_negatives": 2,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "true_positives": 2
+  },
+  "model_type": "LogisticRegression(class_weight='balanced') + TfidfVectorizer",
+  "features": [
+    "title",
+    "company_profile",
+    "description",
+    "requirements"
+  ]
+}
