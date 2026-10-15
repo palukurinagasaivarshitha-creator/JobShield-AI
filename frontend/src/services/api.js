@@ -3,7 +3,7 @@
  * All calls route through Vite development proxy or relative /api endpoints.
  */
 
-const BASE_URL = '/api';
+const BASE_URL = 'https://jobshield-ai-e7ix.onrender.com/api';
 
 async function handleResponse(response) {
   if (!response.ok) {
@@ -98,3 +98,4 @@ export const api = {
     return handleResponse(res);
   },
 };
+
